@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T14:16:38.055Z" agent="5.0 (Macintosh)" etag="QfPmjgJqHvfixM3ocMnI" version="14.7.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-11T14:26:16.165Z" agent="5.0 (Macintosh)" etag="nldjgtoQMvAWTSuN-CXv" version="14.7.7" type="github" pages="4">
   <diagram id="EY51eIQfH2LJ7qfu2MOL" name="Compilation Unit - single">
     <mxGraphModel dx="1106" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -275,6 +275,41 @@
           <mxGeometry x="380" y="310" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HEtSfNY18VgeUzzXQt8M-9" value="&lt;div&gt;$$C(Q_C^{n-1})$$&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HEtSfNY18VgeUzzXQt8M-1">
+          <mxGeometry x="470" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Deadlock - active" id="qPWpg1uz3P6x5V9FoXZm">
+    <mxGraphModel dx="1106" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-0" />
+        <mxCell id="28N03VPCDzMlDKsmWMRR-1" parent="28N03VPCDzMlDKsmWMRR-0" />
+        <mxCell id="28N03VPCDzMlDKsmWMRR-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitPerimeter=0;" edge="1" parent="28N03VPCDzMlDKsmWMRR-1" source="28N03VPCDzMlDKsmWMRR-3" target="28N03VPCDzMlDKsmWMRR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-3" value="$$\text{Unit A: }&lt;br&gt;\mathsf{unknown}$$" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="28N03VPCDzMlDKsmWMRR-1">
+          <mxGeometry x="340" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="28N03VPCDzMlDKsmWMRR-1" source="28N03VPCDzMlDKsmWMRR-5" target="28N03VPCDzMlDKsmWMRR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-5" value="$$\text{Unit B: }&lt;br&gt;\mathsf{active}$$" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="28N03VPCDzMlDKsmWMRR-1">
+          <mxGeometry x="220" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.133;exitY=0.02;exitDx=0;exitDy=0;entryX=0.875;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitPerimeter=0;" edge="1" parent="28N03VPCDzMlDKsmWMRR-1" source="28N03VPCDzMlDKsmWMRR-7" target="28N03VPCDzMlDKsmWMRR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-7" value="$$\text{Unit C: }&lt;br&gt;\mathsf{unknown}$$" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="28N03VPCDzMlDKsmWMRR-1">
+          <mxGeometry x="470" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-8" value="$$C(Q_A^{n-1})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="28N03VPCDzMlDKsmWMRR-1">
+          <mxGeometry x="290" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-9" value="$$Q_B^n$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="28N03VPCDzMlDKsmWMRR-1">
+          <mxGeometry x="380" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="28N03VPCDzMlDKsmWMRR-10" value="&lt;div&gt;$$C(Q_C^{n-1})$$&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="28N03VPCDzMlDKsmWMRR-1">
           <mxGeometry x="470" y="260" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
